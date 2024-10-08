@@ -7,7 +7,7 @@ Created on Mon Oct  7 14:38:33 2024
 
 import streamlit as st
 import pandas as pd
-
+from analyzer import *
 
 
 st.header("กรุณากรอกข้อมูล")
