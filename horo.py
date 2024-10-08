@@ -39,6 +39,6 @@ with col5:
     
     
 with col6:
-    st.write
+    st.write('##')
     predict = st.button("ทำนาย")
     
