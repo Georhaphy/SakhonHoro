@@ -11,7 +11,7 @@ from analyzer import *
 
 
 st.header("กรุณากรอกข้อมูล")
-col1, col2, col3, col4, col5  = st.columns([2,2,1,3,2])
+col1, col2, col3, col4, col5  = st.columns([2,2,1,2.5,2])
 
 
 with col1:
