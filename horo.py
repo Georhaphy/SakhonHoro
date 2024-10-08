@@ -38,7 +38,5 @@ with col5:
     year =  st.text_input( "พ.ศ.ที่เกิด")    
     
     
-with col6:
-    st.write('##')
-    predict = st.button("ทำนาย")
+predict = st.button("ทำนาย")
     
