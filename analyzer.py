@@ -9,9 +9,9 @@ def calyearpillar(day,month,year) :
       year1 = int(year)-543
       month1= [k for k,v in dictofmonth.items() if v == month]
       yearraw = int(str(year1)+str(*month1)+str(day1))
-  if yearraw - int(str(year1)+str('02')+str('04')) >= 0:
-      yeartocal =   yearraw  
-  else :
-      yeartocal =   yearraw-1
-  yearpillar = (yeartocal%60)-3
+      if yearraw - int(str(year1)+str('02')+str('04')) >= 0:
+           yeartocal =   yearraw  
+      else :
+           yeartocal =   yearraw-1
+      yearpillar = (yeartocal%60)-3
   return  yearpillar
