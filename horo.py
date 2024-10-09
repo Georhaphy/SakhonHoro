@@ -39,4 +39,6 @@ with col5:
     
     
 predict = st.button("ทำนาย")
-    
+
+if predict:
+   
