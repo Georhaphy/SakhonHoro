@@ -7,7 +7,7 @@ def calyearpillar(day,month,year) :
       day1 = str(0)+str(day)
   
   year1 = int(year)-543
-  month1= [k for k,v in a.items() if v == month])
+  month1= [k for k,v in dictofmonth.items() if v == month]
   yearraw = int(str(year1)+str(month1)+str(day1))
   if yearraw - int(str(year1)+str('02')+str('04')) >= 0:
       yeartocal =   yearraw  
