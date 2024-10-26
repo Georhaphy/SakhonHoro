@@ -46,6 +46,15 @@ def calyearpillar(date,month,year):
   a = dictofyear[int(year)%12]
   b = dictofyearelement[int(str(year)[-1])]  
   c = dictofpictelement[dictofyearelement[int(str(year)[-1])]]
-  return st.image(c)
+  df = pd.DataFrame(
+           {
+             "ยาม": ["A", "B"],
+             "วัน: ["wer", "asc"],
+             "เดือน: ['ab', 'bc'],
+            "ปี": [st.image(c),  'A' ],
+           }
+                  )
+  
+  return st.dataframe(df)
          
          
