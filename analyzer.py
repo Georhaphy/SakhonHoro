@@ -49,7 +49,7 @@ def calyearpillar(date,month,year):
   df = pd.DataFrame(
            {
              "ยาม": ["A", "B"],
-             "วัน: ["wer", "asc"],
+             "วัน": ["wer", "asc"],
              "เดือน: ['ab', 'bc'],
             "ปี": [st.image(c),  'A' ],
            }
