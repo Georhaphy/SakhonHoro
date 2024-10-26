@@ -1,7 +1,9 @@
+import streamlit as st
 
-dictofyear= {7:"rat",8:"ox" ,9:"tiger" ,10:"rabbit" ,11:"dragon",0:"snake" ,1:"horse" ,2:"goat" ,3:"monkey" ,4:"rooster",5:"dog" , 6:"pig" }
-dictofyearelement = {7:"jia",8:"yi",9:"bing",0:"ding",1:"wu",2:"ji",3:"geng",4:"xin",5:"ren",6:"gui"}
-dictofearthlybranch =  {"rat":"https://img5.pic.in.th/file/secure-sv1/rat.jpg",
+def calyearpillar(date,month,year):
+  dictofyear= {7:"rat",8:"ox" ,9:"tiger" ,10:"rabbit" ,11:"dragon",0:"snake" ,1:"horse" ,2:"goat" ,3:"monkey" ,4:"rooster",5:"dog" , 6:"pig" }
+  dictofyearelement = {7:"jia",8:"yi",9:"bing",0:"ding",1:"wu",2:"ji",3:"geng",4:"xin",5:"ren",6:"gui"}
+  dictofearthlybranch =  {"rat":"https://img5.pic.in.th/file/secure-sv1/rat.jpg",
                          "ox":"https://img2.pic.in.th/pic/ox.jpg",
                          "tiger":"https://img2.pic.in.th/pic/tiger.jpg",
                         "rabbit":"https://img5.pic.in.th/file/secure-sv1/rabb.jpg",
@@ -15,7 +17,7 @@ dictofearthlybranch =  {"rat":"https://img5.pic.in.th/file/secure-sv1/rat.jpg",
                         "pig":"https://img2.pic.in.th/pic/pig.jpg"
                         }
 
-dictofpichiddenstem =  {"rat":"https://img5.pic.in.th/file/secure-sv1/hiddenrat.jpg",
+  dictofpichiddenstem =  {"rat":"https://img5.pic.in.th/file/secure-sv1/hiddenrat.jpg",
                          "ox":"https://img5.pic.in.th/file/secure-sv1/hiddenox.jpg",
                          "tiger":"https://img5.pic.in.th/file/secure-sv1/hiddentiger.jpg",
                      "rabbit":"https://img5.pic.in.th/file/secure-sv1/hiddenrabb.jpg",
@@ -28,7 +30,7 @@ dictofpichiddenstem =  {"rat":"https://img5.pic.in.th/file/secure-sv1/hiddenrat.
                       "dog":"https://img5.pic.in.th/file/secure-sv1/hiddendog.jpg",
                       "pig":"https://img5.pic.in.th/file/secure-sv1/hiddenpig.jpg"
                       }
-dictofpictelement = {"jia":"https://img5.pic.in.th/file/secure-sv1/jia.jpg",
+  dictofpictelement = {"jia":"https://img5.pic.in.th/file/secure-sv1/jia.jpg",
                       "yi":"https://img5.pic.in.th/file/secure-sv1/yi.jpg",
                     "bing":"https://img5.pic.in.th/file/secure-sv1/bing.jpg",
                     "ding":"https://img2.pic.in.th/pic/ding.jpg",
@@ -39,8 +41,6 @@ dictofpictelement = {"jia":"https://img5.pic.in.th/file/secure-sv1/jia.jpg",
                      "ren":"https://img2.pic.in.th/pic/ren.jpg",
                      "gui":"https://img2.pic.in.th/pic/gui.jpg"
                       }
-def calyearpillar(date,month,year):
-
   return st.write(dictofyear[int(year)%12])
   #st.write(dictofyearelement[int(str(a)[-1])])
   #st.write(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
