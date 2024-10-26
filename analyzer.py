@@ -42,5 +42,5 @@ def calyearpillar(date,month,year):
                      "gui":"https://img2.pic.in.th/pic/gui.jpg"
                       }
   return st.write(dictofyear[int(year)%12])
-         st.write(dictofyearelement[int(str(a)[-1])])
-  #st.write(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
+         #st.write(dictofyearelement[int(str(a)[-1])])
+         #st.write(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
