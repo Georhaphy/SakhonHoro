@@ -51,10 +51,10 @@ def calyearpillar(date,month,year):
              "ยาม": ["A", "B"],
              "วัน": ["wer", "asc"],
              "เดือน": ['ab', 'bc'],
-            "ปี": [st.image(c),  st.image(a) ],  use_container_width =True,
+            "ปี": [st.image(c),  st.image(a) ],  
            }
                   )
   
-  return st.dataframe(df)
+  return st.dataframe(df,use_container_width =True,)
          
          
