@@ -41,4 +41,4 @@ with col5:
 predict = st.button("ทำนาย")
 
 if predict:
-   st.write(calyearpillar(date,month,year))
+   calyearpillar(date,month,year)
