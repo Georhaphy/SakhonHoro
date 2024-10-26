@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 def calyearpillar(date,month,year):
   dictofyear= {7:"rat",8:"ox" ,9:"tiger" ,10:"rabbit" ,11:"dragon",0:"snake" ,1:"horse" ,2:"goat" ,3:"monkey" ,4:"rooster",5:"dog" , 6:"pig" }
@@ -41,6 +42,10 @@ def calyearpillar(date,month,year):
                      "ren":"https://img2.pic.in.th/pic/ren.jpg",
                      "gui":"https://img2.pic.in.th/pic/gui.jpg"
                       }
-  return st.write(dictofyear[int(year)%12])
-         #st.write(dictofyearelement[int(str(a)[-1])])
-         #st.write(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
+  
+   a = dictofyear[int(year)%12]
+   b = dictofyearelement[int(str(a)[-1])]  
+   c = dictofpictelement[dictofyearelement[int(str(a)[-1])]]
+  return st.image(c)
+         
+         
