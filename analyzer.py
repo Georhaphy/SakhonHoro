@@ -43,7 +43,7 @@ def calyearpillar(date,month,year):
                      "gui":"https://img2.pic.in.th/pic/gui.jpg"
                       }
   
-  a = dictofyear[int(year)%12]
+  a = dictofpichiddenstem[dictofyear[int(year)%12]]
   b = dictofyearelement[int(str(year)[-1])]  
   c = dictofpictelement[dictofyearelement[int(str(year)[-1])]]
   df = pd.DataFrame(
@@ -51,7 +51,7 @@ def calyearpillar(date,month,year):
              "ยาม": ["A", "B"],
              "วัน": ["wer", "asc"],
              "เดือน": ['ab', 'bc'],
-            "ปี": [st.image(c),  'A' ]
+            "ปี": [st.image(c),  st.image(a) ]
            }
                   )
   
