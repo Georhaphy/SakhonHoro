@@ -39,9 +39,8 @@ dictofpictelement = {"jia":"https://img5.pic.in.th/file/secure-sv1/jia.jpg",
                      "ren":"https://img2.pic.in.th/pic/ren.jpg",
                      "gui":"https://img2.pic.in.th/pic/gui.jpg"
                       }
-def 
+def calyearpillar(date,month,year):
 
-a =int(input())
-print(dictofyear[a%12])
-print(dictofyearelement[int(str(a)[-1])])
-print(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
+  st.write(dictofyear[int(year)%12])
+  st.write(dictofyearelement[int(str(a)[-1])])
+  st.write(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
