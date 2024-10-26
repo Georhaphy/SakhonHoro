@@ -51,7 +51,7 @@ def calyearpillar(date,month,year):
              "ยาม": ["A", "B"],
              "วัน": ["wer", "asc"],
              "เดือน": ['ab', 'bc'],
-            "ปี": [st.image(c),  'A' ],
+            "ปี": [st.image(c),  'A' ]
            }
                   )
   
