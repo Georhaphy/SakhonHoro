@@ -1,3 +1,4 @@
+
 dictofyear= {7:"rat",8:"ox" ,9:"tiger" ,10:"rabbit" ,11:"dragon",0:"snake" ,1:"horse" ,2:"goat" ,3:"monkey" ,4:"rooster",5:"dog" , 6:"pig" }
 dictofyearelement = {7:"jia",8:"yi",9:"bing",0:"ding",1:"wu",2:"ji",3:"geng",4:"xin",5:"ren",6:"gui"}
 dictofearthlybranch =  {"rat":"https://img5.pic.in.th/file/secure-sv1/rat.jpg",
@@ -38,7 +39,7 @@ dictofpictelement = {"jia":"https://img5.pic.in.th/file/secure-sv1/jia.jpg",
                      "ren":"https://img2.pic.in.th/pic/ren.jpg",
                      "gui":"https://img2.pic.in.th/pic/gui.jpg"
                       }
-
+def 
 
 a =int(input())
 print(dictofyear[a%12])
