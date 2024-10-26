@@ -44,8 +44,8 @@ def calyearpillar(date,month,year):
                       }
   
   a = dictofyear[int(year)%12]
-  b = dictofyearelement[int(str(a)[-1])]  
-  c = dictofpictelement[dictofyearelement[int(str(a)[-1])]]
+  b = dictofyearelement[int(str(year)[-1])]  
+  c = dictofpictelement[dictofyearelement[int(str(year)[-1])]]
   return st.image(c)
          
          
