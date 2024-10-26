@@ -41,6 +41,6 @@ dictofpictelement = {"jia":"https://img5.pic.in.th/file/secure-sv1/jia.jpg",
                       }
 def calyearpillar(date,month,year):
 
-  st.write(dictofyear[int(year)%12])
-  st.write(dictofyearelement[int(str(a)[-1])])
-  st.write(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
+  return st.write(dictofyear[int(year)%12])
+  #st.write(dictofyearelement[int(str(a)[-1])])
+  #st.write(dictofpictelement[dictofyearelement[int(str(a)[-1])]])
