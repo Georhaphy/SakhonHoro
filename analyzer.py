@@ -43,7 +43,7 @@ def calyearpillar(date,month,year):
                      "gui":"https://img2.pic.in.th/pic/gui.jpg"
                       }
   
-  a = dictofpichiddenstem[dictofyear[int(year)%12]]
+  a = dictofearthlybranch[dictofyear[int(year)%12]]
   b = dictofyearelement[int(str(year)[-1])]  
   c = dictofpictelement[dictofyearelement[int(str(year)[-1])]]
   df = pd.DataFrame(
